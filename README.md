@@ -50,7 +50,6 @@
 
 ## 📦 其他作品與工具
 
-- **[Flight Price Monitor](https://github.com/wuharry/Flight-Price-Monitor)** — 虎航票價監控、歷史資料與通知工具。TypeScript / Playwright / PostgreSQL。[網站入口](https://wuharry.github.io/Flight-Price-Monitor/)
 - **[Axios Impostor](https://github.com/wuharry/axios-imposto)** — 以 Fetch API 實作 Axios-like HTTP client，支援攔截器、逾時與型別化回應。
 - **[Frontend Project Template](https://github.com/wuharry/frontend-project-template-)** — 整合 React、TypeScript、Vite、Tailwind CSS 與測試／程式檢查工具的前端模板。
 
