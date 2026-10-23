@@ -22,8 +22,8 @@
     <th>Star Warfare · 開發分支畫面</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/wuharry/card-game-demo-4.5-"><img width="400" alt="CardGame 森林戰場與卡牌介面" src="https://media.githubusercontent.com/media/wuharry/card-game-demo-4.5-/main/docs/art/forest-shadow-review/after-forest-front.png" /></a></td>
-    <td><a href="https://github.com/wuharry/star-warfare-godot/tree/codex/new-armor-design"><img width="400" alt="Star Warfare 開發分支中的 Thunder 裝甲與太空站" src="https://media.githubusercontent.com/media/wuharry/star-warfare-godot/codex/new-armor-design/docs/art/thunder_head_alignment_v1/after/game_level_3.png" /></a></td>
+    <td><a href="https://github.com/wuharry/card-game-demo-4.5-"><img width="400" alt="CardGame 森林戰場與卡牌介面" src="assets/cardgame-forest.png" /></a></td>
+    <td><a href="https://github.com/wuharry/star-warfare-godot/tree/codex/new-armor-design"><img width="400" alt="Star Warfare 開發分支中的 Thunder 裝甲與太空站" src="assets/star-warfare-thunder.png" /></a></td>
   </tr>
 </table>
 
