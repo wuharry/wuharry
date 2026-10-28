@@ -1,39 +1,38 @@
 <h1 align="center">Hi, I'm Harvey 👋</h1>
 
 <p align="center"><strong>Web 開發 · AI 文字冒險 · Godot 遊戲</strong></p>
-<p align="center">用 TypeScript / React 打造 Web 應用，用 Godot 實作卡牌與第三人稱遊戲。<br />目前持續開發萬境 TRPG、CardGame 與 Star Warfare。</p>
+<p align="center">用 TypeScript / React 打造 Web 應用，用 Godot 實作卡牌與第三人稱遊戲。<br />目前開發紙鴉牌 Deckmarch、萬境 TRPG，並進行 Star Warfare 的 Godot 重建。</p>
 
 <p align="center">
-  <a href="https://wanjing-trpg.vercel.app/try/short"><img alt="試玩萬境 TRPG" src="https://img.shields.io/badge/PLAY-Myriad_TRPG-C79A42?style=for-the-badge" /></a>
+  <a href="https://twilight-codex.vercel.app/#download"><img alt="下載紙鴉牌 Deckmarch" src="https://img.shields.io/badge/PLAY-Deckmarch-C79A42?style=for-the-badge" /></a>
+  <a href="https://wanjing-trpg.vercel.app/try/short"><img alt="試玩萬境 TRPG" src="https://img.shields.io/badge/PLAY-Myriad_TRPG-477B94?style=for-the-badge" /></a>
   <a href="https://github.com/wuharry?tab=repositories"><img alt="查看公開專案" src="https://img.shields.io/badge/EXPLORE-My_Projects-30363D?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ## 🎮 代表作品
 
-| 專案 | 正在解決的問題與實作 | 技術 |
+| 專案 | 作品介紹與目前狀態 | 技術 |
 | --- | --- | --- |
-| **[萬境 Myriad TRPG](https://wanjing-trpg.vercel.app)** | AI 主持的繁體中文文字冒險：AI 負責敘事，規則引擎負責數值裁定。免註冊短篇已開放；公會任務、角色與 3D 像素小鎮持續測試中。 | Next.js · React · Hono · Supabase · Three.js |
-| **[CardGame](https://github.com/wuharry/card-game-demo-4.5-)** | HD-2D 風格的 3D 卡牌遊戲原型，包含單人 AI、主題預組牌組與伺服器結算的連線對戰。持續調整卡效互動、戰場與遊玩介面。 | Godot · GDScript · ENet |
-| **[Star Warfare — Godot](https://github.com/wuharry/star-warfare-godot)** | 將 Unity 專案重建為 Godot 第三人稱遊戲：轉換場景、角色蒙皮與武器資料，實作離線戰役、裝備與存檔。 | Godot · GDScript · Python（資產轉換） |
+| **[紙鴉牌 Deckmarch](https://twilight-codex.vercel.app)** | 四路前後排、60 張牌組構築的 HD-2D 卡牌對戰。提供單人 AI 練習、區網對戰與外網房間，已開放多平台試玩。[下載與版本說明](https://github.com/wuharry/twilight-codex-downloads/releases) | Godot · GDScript · ENet |
+| **[萬境 Myriad TRPG](https://wanjing-trpg.vercel.app)** | AI 主持的繁體中文文字冒險：AI 負責敘事，規則引擎負責數值裁定。農路、地牢與酒館三個免註冊短篇可玩；多人房間、公會任務與 3D 像素小鎮仍在測試。 | Next.js · React · Hono · Supabase · Three.js |
+| **[Star Warfare — Godot](https://github.com/wuharry/star-warfare-godot)** | 將 Unity 專案重建為 Godot 第三人稱遊戲：轉換場景、角色蒙皮與武器資料，實作離線戰役、裝備與存檔；裝甲外觀持續在開發分支調整。 | Godot · GDScript · Python（資產轉換） |
 
-<table>
-  <tr>
-    <th>CardGame · 森林戰場</th>
-    <th>Star Warfare · 開發分支畫面</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/wuharry/card-game-demo-4.5-"><img width="400" alt="CardGame 森林戰場與卡牌介面" src="assets/cardgame-forest.png" /></a></td>
-    <td><a href="https://github.com/wuharry/star-warfare-godot/tree/codex/new-armor-design"><img width="400" alt="Star Warfare 開發分支中的 Thunder 裝甲與太空站" src="assets/star-warfare-thunder.png" /></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://twilight-codex.vercel.app/#arenas"><img width="800" alt="紙鴉牌 Deckmarch 四路前後排戰場與手牌介面，R19 官網實機畫面" src="https://twilight-codex.vercel.app/media/screens/hero-battlefield.webp?v=b94907bca342" /></a><br />
+  <sub>紙鴉牌官網實機畫面：R19，2026-10-28 更新。</sub>
+</p>
 
 ## 🔨 近期進展
 
-<sub>整理自截至 2026-10-08 的提交紀錄；仍在開發與驗證中。</sub>
+<sub>截至 2026-10-28 核對；以下日期為各作品最近的功能進展（台北時間）。</sub>
 
-- **CardGame**：擴充主題預組牌組與死靈連動卡，補上互動卡效說明、音效與載入進度。[查看提交](https://github.com/wuharry/card-game-demo-4.5-/commits/main/)
-- **萬境 TRPG**：修正主線觸發與敘事一致性，加入回合追蹤紀錄，補完保持登入與忘記密碼流程。[前往試玩](https://wanjing-trpg.vercel.app/try/short)
-- **Star Warfare**：在開發分支持續調整 Titan / Thunder 裝甲、頭盔與武器姿勢。[查看開發分支](https://github.com/wuharry/star-warfare-godot/tree/codex/new-armor-design)
+| 作品 | 日期 | 更新內容 |
+| --- | --- | --- |
+| **紙鴉牌 Deckmarch** | 2026-10-28 | Windows / macOS 發布 R20：改善新手教學提示、戰鬥資訊與卡牌文字，更新戰場光影及戰鬥／魔法音效，支援帳號牌組離線練習。[R20 版本說明](https://github.com/wuharry/twilight-codex-downloads/releases/tag/v2026.10.28-r20) |
+| **Star Warfare** | 2026-10-09～10-10 | 在開發分支細修 Thunder、Atom、Pegasus 裝甲，改善 Titan 頭盔、頸圈貼合與裝備混搭。[開發分支提交](https://github.com/wuharry/star-warfare-godot/commits/codex/new-armor-design/) |
+| **萬境 TRPG** | 2026-10-06 | 接上保持登入與忘記密碼流程；目前持續驗證主線觸發、敘事一致性與公會／小鎮體驗。[免註冊試玩](https://wanjing-trpg.vercel.app/try/short) |
+
+紙鴉牌目前為開發中試玩版：Windows / macOS 為 R20，Linux / Android 維持 R19；各平台的安裝方式與驗收範圍見[官網下載頁](https://twilight-codex.vercel.app/#download)與版本說明。
 
 ## 🧰 使用中的工具
 
